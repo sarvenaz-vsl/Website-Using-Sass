@@ -11,8 +11,8 @@
     <title>Sentra Website</title>
 </head>
 <body>
+  
     <header id="home">
-
         <div class="slideshow-nav">
           <div class="btn secondary prev">
             <i class="fas fa-chevron-left"></i>
@@ -41,6 +41,7 @@
             <div class="slides slide-3"></div>
         </div>
     </header>
+
 
     <aside class="sidebar">
         <div class="logo">
@@ -72,6 +73,7 @@
           <i class="fab fa-telegram"></i>
         </div>
     </aside>
+
 
     <main>
         <section id="featured-places" class="featured-places">
@@ -130,6 +132,7 @@
             </div>
         </section>
 
+
         <section id="recent-projects" class="recent-projects">
             <div class="section-title">
               <h1>Recent <span>Projects</span></h1>
@@ -158,6 +161,7 @@
               </a>
             </div>
           </section>
+
 
           <section id="company-presentation" class="company-presentation">
             <div class="section-title">
@@ -192,11 +196,135 @@
             </div>
           </section>
 
+          <section id="blog-entries" class="blog-entries">
+            <div class="section-title">
+              <h1>Blog <span>Entries</span></h1>
+              <p>
+                Praesent pellentesque efficitur magna, sed pellesentesque neque
+                malesuada vitae
+              </p>
+            </div>
+    
+            <div class="blog-box">
+              <div class="blog-tabs">
+                <div class="blog-tab active" onclick="openBlogs(event, 'july')">
+                  <h3>July 2021</h3>
+                </div>
+                <div class="blog-tab" onclick="openBlogs(event, 'june')">
+                  <h3>June 2021</h3>
+                </div>
+                <div class="blog-tab" onclick="openBlogs(event, 'may')">
+                  <h3>May 2021</h3>
+                </div>
+              </div>
+    
+              <div class="blog-items">
+                <div id="july" class="tabcontent">
+                  <div class="blog-item">
+                    <img src="./css/images/blog_1.jpg" alt="blog_1" />
+                    <div class="blog-item-info">
+                      <h3>Integer ultrices augue</h3>
+                      <h4>25 July 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis magnam assumenda necessitatibus quo minus, cumque
+                        nihil voluptates vitae ipsum culpa, voluptatem ullam
+                        consequatur saepe iure praesentium corporis! Culpa
+                        blanditiis minima ut possimus eaque delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+    
+                  <div class="blog-item">
+                    <img src="./css/images/blog_2.jpg" alt="blog_2" />
+                    <div class="blog-item-info">
+                      <h3>Lorem, ipsum dolor.</h3>
+                      <h4>20 July 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        blanditiis minima ut possimus eaque delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+    
+                  <div class="blog-item">
+                    <img src="./css/images/blog_3.jpg" alt="blog_3" />
+                    <div class="blog-item-info">
+                      <h3>Cras commodo odio ut</h3>
+                      <h4>10 July 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis magnam assumenda necessitatibus quo minus, cumque
+                        nihil voluptates vitae ipsum culpa, voluptatem ullam
+                        blanditiis minima ut possimus eaque delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div id="june" class="tabcontent">
+                  <div class="blog-item">
+                    <img src="./css/images/blog_2.jpg" alt="blog_2" />
+                    <div class="blog-item-info">
+                      <h3>Cras, ipsum dolor.</h3>
+                      <h4>22 June 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis magnam assumenda necessitatibus quo minus, cumque
+                        nihil voluptates vitae ipsum culpa, voluptatem ullam
+                        consequatur saepe iure praesentium corporis! Culpa
+                        blanditiis minime delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+    
+                  <div class="blog-item">
+                    <img src="./css/images/blog_3.jpg" alt="blog_3" />
+                    <div class="blog-item-info">
+                      <h3>Cras commodo odio ut</h3>
+                      <h4>15 June 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis magnam assumenda necessitatibus quo minus, cumque
+                        nihil voluptates vitae ipsum culpa, voluptatem ullam
+                        consequatur saepe iure praesentium corporis! Culpa
+                        blanditiis minima ut possimus eaque delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div id="may" class="tabcontent">
+                  <div class="blog-item">
+                    <img src="./css/images/blog_2.jpg" alt="blog_2" />
+                    <div class="blog-item-info">
+                      <h3>Lorem, ipsum dolor.</h3>
+                      <h4>14 May 2021</h4>
+                      <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis magpa, voluptatem ullam
+                        consequatur saepe iure praesentium corporis! Culpa
+                        blanditiis minima ut possimus eaque delectus odio..
+                      </p>
+                      <div class="btn primary">Continue Reading</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
     </main>
 
     <script src="./js/slideshow.js"></script>
     <script src="./js/sidebar.js"></script>
     <script src="./js/lightbox.min.js"></script>
     <script src="./js/lightbox-plus-jquery.min.js"></script>
+    <script src="./js/tabs.js"></script>
 </body>
 </html>
