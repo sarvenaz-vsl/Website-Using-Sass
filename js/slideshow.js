@@ -26,4 +26,4 @@ function goRight() {
 prev.addEventListener("click", goLeft);
 next.addEventListener("click", goRight);
 
-setInterval(goRight, 8000);
+setInterval(goRight, 5000);
